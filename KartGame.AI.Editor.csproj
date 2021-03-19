@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BE05752B-7ABB-47B5-E89F-97312E28621A}</ProjectGuid>
+    <ProjectGuid>{95C1B025-545E-A359-C9A9-7756F99FE770}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>KartGame.AI.Editor</AssemblyName>
@@ -250,28 +250,28 @@
  <HintPath>D:/Programas/Unity/Unity Editor/2019.4.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Compression.FileSystem">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/PackageCache/com.unity.connect.share@1.2.0-preview.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/PackageCache/com.unity.connect.share@1.2.0-preview.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Programas/Unity/Unity Editor/2019.4.21f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -628,21 +628,21 @@
  <HintPath>D:/Programas/Unity/Unity Editor/2019.4.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>D:/trab/.S3/Proj/MegamanKart/MegamanoKarting-main/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>D:/trab/.S3/.Proj/MegamanKart/kart/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="KartGame.AI.csproj">
-      <Project>{4A5736C4-7A95-93F5-9B02-BB4CFA94BF33}</Project>
+      <Project>{D251F0F2-2E8B-A81B-0311-940CA56A6D91}</Project>
       <Name>KartGame.AI</Name>
     </ProjectReference>
   </ItemGroup>
