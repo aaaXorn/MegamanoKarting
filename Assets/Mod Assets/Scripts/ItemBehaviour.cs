@@ -33,4 +33,9 @@ public class ItemBehaviour : MonoBehaviour
 	{
 		itemTest = "buster";
 	}
+	
+	public void TrapCollected()
+	{
+		itemTest = "trap";
+	}
 }

@@ -61,6 +61,7 @@
      <Compile Include="Assets\Mod Assets\ModResources\Scripts\Kart\Jiggler.cs" />
      <Compile Include="Assets\Mod Assets\ModResources\Scripts\Kart\SimpleTrigger.cs" />
      <Compile Include="Assets\Mod Assets\ModResources\Scripts\Platformer\EmitParticlesOnLand.cs" />
+     <Compile Include="Assets\Mod Assets\Scripts\Coletavel\ArmadilhaColetavel.cs" />
      <Compile Include="Assets\Mod Assets\Scripts\Coletavel\BateriaColetavel.cs" />
      <Compile Include="Assets\Mod Assets\Scripts\Coletavel\BusterColetavel.cs" />
      <Compile Include="Assets\Mod Assets\Scripts\ItemBehaviour.cs" />

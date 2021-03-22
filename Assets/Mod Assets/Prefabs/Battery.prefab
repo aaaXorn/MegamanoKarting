@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 38821683602476228}
   - component: {fileID: 3973924781991543649}
   - component: {fileID: 1207739586200647595}
-  - component: {fileID: 505341457927252775}
   - component: {fileID: 505341457927252779}
   - component: {fileID: 505341457927252776}
   - component: {fileID: 505341457927252778}
@@ -84,22 +83,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!54 &505341457927252775
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847306411041166974}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &505341457927252779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -223,3 +206,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioS: {fileID: 0}
   pickup: 
+  vetorRotacao: {x: 0, y: 0, z: 0}
+  oscilacao: 0
