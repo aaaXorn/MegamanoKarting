@@ -9,7 +9,7 @@ namespace KartGame.KartSystems
         /// Contains parameters that can adjust the kart's behaviors temporarily.
         /// </summary>
         [System.Serializable]
-        public class StatPowerup
+        public class StatPowerup//!!!
         {
             public ArcadeKart.Stats modifiers;
             public string PowerUpID;
@@ -59,7 +59,7 @@ namespace KartGame.KartSystems
             [Tooltip("How much the Kart tries to keep going forward when on bumpy terrain.")]
             [Range(0, 1)]
             public float Suspension;
-
+			//!!!
             // allow for stat adding for powerups.
             public static Stats operator +(Stats a, Stats b)
             {
@@ -188,7 +188,7 @@ namespace KartGame.KartSystems
                 }
             }
         }
-
+		//!!!
         void TickPowerups()
         {
             // remove all elapsed powerups
@@ -454,7 +454,7 @@ namespace KartGame.KartSystems
                 }
             }
         }
-
+		//!!!
         public void AddPowerup(StatPowerup statPowerup)
         {
             activePowerupList.Add(statPowerup);
