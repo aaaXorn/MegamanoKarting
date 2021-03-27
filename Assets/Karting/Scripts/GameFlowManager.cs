@@ -17,6 +17,8 @@ public class GameFlowManager : MonoBehaviour
     [Header("Win")]
     [Tooltip("This string has to be the name of the scene you want to load when winning")]
     public string winSceneName = "WinScene";
+	public string winP1SceneName = "P1Wins";
+	public string winP2SceneName = "P2Wins";
     [Tooltip("Duration of delay before the fade-to-black, if winning")]
     public float delayBeforeFadeToBlack = 4f;
     [Tooltip("Duration of delay before the win message")]
@@ -47,6 +49,9 @@ public class GameFlowManager : MonoBehaviour
     float m_TimeLoadEndGameScene;
     string m_SceneToLoad;
     float elapsedTimeBeforeEndScene = 0;
+
+	[SerializeField]
+	WinCondition WC;
 
     void Start()
     {
@@ -158,9 +163,13 @@ public class GameFlowManager : MonoBehaviour
         // Remember that we need to load the appropriate end scene after a delay
         gameState = win ? GameState.Won : GameState.Lost;
         endGameFadeCanvasGroup.gameObject.SetActive(true);
-        if (win)
+        if (win)//!!!
         {
-            m_SceneToLoad = winSceneName;
+			if(WC.winningPlayer == 1)
+				m_SceneToLoad = winP1SceneName;
+			else
+				m_SceneToLoad = winP2SceneName;
+            //m_SceneToLoad = winSceneName;
             m_TimeLoadEndGameScene = Time.time + endSceneLoadDelay + delayBeforeFadeToBlack;
 
             // play a sound on win
