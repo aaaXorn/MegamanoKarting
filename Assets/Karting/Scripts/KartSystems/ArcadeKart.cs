@@ -17,6 +17,8 @@ namespace KartGame.KartSystems
             public float MaxTime;
         }
 
+		public ItemBehaviour IB;
+
         /// <summary>
         /// Contains a series tunable parameters to tweak various karts for unique driving mechanics.
         /// </summary>
@@ -130,6 +132,10 @@ namespace KartGame.KartSystems
         List<StatPowerup> activePowerupList = new List<StatPowerup>();
         GameObject lastGroundCollided = null;
         ArcadeKart.Stats finalStats;
+		
+		bool stunned = false;
+		float totalStunTimer = 1;//duracao do stun
+		float stunTimer = 0;
 
         void Awake()
         {
@@ -162,10 +168,23 @@ namespace KartGame.KartSystems
 
             // apply vehicle physics
             GroundVehicle(minHeight);
-            if (canMove)
+			
+            if (canMove && stunned == false)
             {
                 MoveVehicle(accel, turn);
             }
+			else if (stunned == true)
+			{
+				stunTimer += Time.deltaTime;
+				if(stunTimer > totalStunTimer)
+				{
+					stunTimer = 0;
+					stunned = false;
+				}
+				else
+					Rigidbody.velocity = new Vector3(0, Rigidbody.velocity.y, 0);
+			}
+			
             GroundAirbourne();
 
             // animation
@@ -490,5 +509,10 @@ namespace KartGame.KartSystems
         {
             canMove = move;
         }
+		
+		public void SetStun(bool stop)
+		{
+			stunned = stop;
+		}
     }
 }

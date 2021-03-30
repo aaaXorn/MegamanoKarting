@@ -8922,7 +8922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &373080610
 Transform:
   m_ObjectHideFlags: 0
@@ -8931,7 +8931,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373080609}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 74.7, y: 14.6, z: -45.23301}
+  m_LocalPosition: {x: 71.3, y: 11.2, z: -7.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 656904793}
@@ -22240,6 +22240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 4333346254428162907, guid: 3a14cb34c1d2b554093951ad47d9a710, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3a14cb34c1d2b554093951ad47d9a710, type: 3}
 --- !u!4 &948460792 stripped
 Transform:
@@ -27119,6 +27120,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3934862071804020760, guid: 5bce91ab2f42c924e9171c2efed10487,
         type: 3}
+      propertyPath: IB
+      value: 
+      objectReference: {fileID: 1130736451}
+    - target: {fileID: 3934862071804020760, guid: 5bce91ab2f42c924e9171c2efed10487,
+        type: 3}
       propertyPath: MinHeightThreshold
       value: -9.42
       objectReference: {fileID: 0}
@@ -27202,7 +27208,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0ffbf33f39548449eeee09a3be0555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemTest: 
+  currentItem: none
+  rigidB: {fileID: 1130736461}
+  fireKey: left shift
+  playerPos: {fileID: 1130736447}
+  Armadilha: {fileID: 3161352188047633699, guid: a1037ed34626d9f4ebc6e77bd380d3d9,
+    type: 3}
+  PewPew: {fileID: 0}
+  batteryStats:
+    modifiers:
+      TopSpeed: 6
+      Acceleration: 6
+      ReverseSpeed: 0
+      ReverseAcceleration: 0
+      AccelerationCurve: 0
+      Braking: 0
+      CoastingDrag: 0
+      Grip: 0
+      Steer: 0
+      AddedGravity: 0
+      Suspension: 0
+    PowerUpID: Battery
+    ElapsedTime: 0
+    MaxTime: 2
 --- !u!54 &1130736452
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27232,6 +27260,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Id: 3d2a63ac-faff-4724-9919-39a4129d50e4
+--- !u!54 &1130736461 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 3934862071804020767, guid: 5bce91ab2f42c924e9171c2efed10487,
+    type: 3}
+  m_PrefabInstance: {fileID: 1130736446}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1137653082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52242,6 +52276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3934862071804020760, guid: 5bce91ab2f42c924e9171c2efed10487,
         type: 3}
+      propertyPath: IB
+      value: 
+      objectReference: {fileID: 2010206262}
+    - target: {fileID: 3934862071804020760, guid: 5bce91ab2f42c924e9171c2efed10487,
+        type: 3}
       propertyPath: MinHeightThreshold
       value: -9.42
       objectReference: {fileID: 0}
@@ -52315,7 +52354,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0ffbf33f39548449eeee09a3be0555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemTest: 
+  currentItem: none
+  rigidB: {fileID: 2010206272}
+  fireKey: space
+  playerPos: {fileID: 2010206258}
+  Armadilha: {fileID: 3161352188047633699, guid: a1037ed34626d9f4ebc6e77bd380d3d9,
+    type: 3}
+  PewPew: {fileID: 0}
+  batteryStats:
+    modifiers:
+      TopSpeed: 6
+      Acceleration: 6
+      ReverseSpeed: 0
+      ReverseAcceleration: 0
+      AccelerationCurve: 0
+      Braking: 0
+      CoastingDrag: 0
+      Grip: 0
+      Steer: 0
+      AddedGravity: 0
+      Suspension: 0
+    PowerUpID: Battery
+    ElapsedTime: 0
+    MaxTime: 2
 --- !u!54 &2010206263
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -52345,6 +52406,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Id: c24f0cc7-13f5-49cd-955e-bc093c939d79
+--- !u!54 &2010206272 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 3934862071804020767, guid: 5bce91ab2f42c924e9171c2efed10487,
+    type: 3}
+  m_PrefabInstance: {fileID: 2010206257}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2022190433
 PrefabInstance:
   m_ObjectHideFlags: 0

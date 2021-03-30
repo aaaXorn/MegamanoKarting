@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 505341457927252779}
   - component: {fileID: 505341457927252776}
   - component: {fileID: 505341457927252778}
+  - component: {fileID: 4333346254428162907}
   m_Layer: 0
   m_Name: Battery
   m_TagString: Untagged
@@ -208,3 +209,39 @@ MonoBehaviour:
   pickup: 
   vetorRotacao: {x: 0, y: 0, z: 0}
   oscilacao: 0
+--- !u!114 &4333346254428162907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847306411041166974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb90679940aa4f70846b5eeaf547397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boostStats:
+    modifiers:
+      TopSpeed: 0
+      Acceleration: 0
+      ReverseSpeed: 0
+      ReverseAcceleration: 0
+      AccelerationCurve: 0
+      Braking: 0
+      CoastingDrag: 0
+      Grip: 0
+      Steer: 0
+      AddedGravity: 0
+      Suspension: 0
+    PowerUpID: 
+    ElapsedTime: 0
+    MaxTime: 5
+  cooldown: 5
+  disableGameObjectWhenActivated: 1
+  onPowerupActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  onPowerupFinishCooldown:
+    m_PersistentCalls:
+      m_Calls: []
