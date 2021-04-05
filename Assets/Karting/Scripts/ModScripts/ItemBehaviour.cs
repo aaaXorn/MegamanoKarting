@@ -49,9 +49,8 @@ public class ItemBehaviour : MonoBehaviour
 					break;
 					
 				case "buster":
-					/*GameObject Tiro = Instantiate(PewPew, playerPos.transform.position, playerPos.transform.rotation);
-					Tiro.transform.Translate(0, 0, 0);
-					Tiro.rigidB.velocity = new Vector3(0, 0, 0);*/
+					GameObject Tiro = Instantiate(PewPew, playerPos.transform.position, playerPos.transform.rotation);
+					Tiro.transform.Translate(0, -0.2f, 3);
 					break;
 				
 				default:
