@@ -9132,7 +9132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373080610}
   m_Layer: 0
-  m_Name: LabTrack
+  m_Name: LabTrack (ModAssets > 3DProps > LabProps > Pista)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

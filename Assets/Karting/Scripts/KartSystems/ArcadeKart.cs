@@ -134,7 +134,7 @@ namespace KartGame.KartSystems
         ArcadeKart.Stats finalStats;
 		
 		bool stunned = false;
-		float totalStunTimer = 1;//duracao do stun
+		float totalStunTimer = 1.5f;//duracao do stun
 		float stunTimer = 0;
 
         void Awake()

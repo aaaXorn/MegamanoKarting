@@ -45,8 +45,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 75
 --- !u!114 &3
@@ -338,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Mod Assets/Prefabs
+    - Assets/Karting/Scripts/ModScripts
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Mod Assets/Prefabs
+  - Assets/Karting/Scripts/ModScripts
   m_LastFoldersGridSize: 57
   m_LastProjectPath: D:\Documentos\GitHub\MegamanoKarting
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 426}
-    m_SelectedIDs: 00670000
-    m_LastClickedID: 26368
-    m_ExpandedIDs: 00000000b6660000b8660000ba660000bc660000be660000e266000018670000be6b000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 3a6b0000
+    m_LastClickedID: 27450
+    m_ExpandedIDs: 00000000ea660000ec660000ee660000f0660000f266000016670000206b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b6660000b8660000ba660000bc660000be660000
+    m_ExpandedIDs: 00000000ea660000ec660000ee660000f0660000f2660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -472,7 +472,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 250
+  m_LastVerticalScrollValue: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -504,7 +504,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: bebbffffb6faffff40470000
+      m_ExpandedIDs: b6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -614,11 +614,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.46370706, y: 0.5359642, z: -0.48598093, w: 0.51145667}
     speed: 2
-    m_Value: {x: 0.46296662, y: 0.5367181, z: -0.48666447, w: 0.5106401}
+    m_Value: {x: 0.46369612, y: 0.53595155, z: -0.48596945, w: 0.51144457}
   m_Size:
-    m_Target: 48.121567
+    m_Target: 37.348286
     speed: 2
-    m_Value: 46.049347
+    m_Value: 39.108154
   m_Ortho:
     m_Target: 0
     speed: 2
