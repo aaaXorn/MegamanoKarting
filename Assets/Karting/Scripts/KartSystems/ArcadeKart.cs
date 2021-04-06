@@ -178,11 +178,15 @@ namespace KartGame.KartSystems
 				stunTimer += Time.deltaTime;
 				if(stunTimer > totalStunTimer)
 				{
+					Rigidbody.freezeRotation = false;
 					stunTimer = 0;
 					stunned = false;
 				}
 				else
+				{
 					Rigidbody.velocity = new Vector3(0, Rigidbody.velocity.y, 0);
+					Rigidbody.freezeRotation = true;//faz o objeto parar de rotacionar durante o stun
+				}
 			}
 			
             GroundAirbourne();
